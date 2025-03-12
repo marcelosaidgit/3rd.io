@@ -35,14 +35,16 @@ p {
 }
 
 ul, ol {
-    text-align: center;        /* Centers the list */
+    text-align: center; 
     list-style-position: inside; /* Moves markers inside */
-    padding-left: 0;           /* Removes unwanted left padding */
+    padding-left: 0; /* Removes default left padding */
 }
 
 li {
-    display: inline-block; /* Prevents full-width behavior */
-    text-align: left;      /* Ensures multi-line items align naturally */
+    display: block; /* Ensures markers appear */
+    text-align: left; /* Keeps multi-line items aligned */
+    margin: 0 auto; /* Centers the list items */
+    width: fit-content; /* Keeps items compact */
 }
 
 /* Modern buttons */
