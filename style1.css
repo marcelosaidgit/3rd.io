@@ -1,14 +1,13 @@
-/* Apply modern styling to the entire page */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
     margin: 0;
-    font-family: 'Poppins', sans-serif; /* Modern font */
-    background-color: #f4f4f4; /* Light background for contrast */
-    color: #333; /* Dark text for readability */
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow: auto; /* Allow scrolling if content exceeds the viewport */
 }
 
 /* Stylish container for centering content */
