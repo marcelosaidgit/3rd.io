@@ -35,16 +35,17 @@ p {
 }
 
 ul, ol {
-    text-align: center; 
-    list-style-position: inside; /* Moves markers inside */
-    padding-left: 0; /* Removes default left padding */
+    list-style-position: inside; /* Keep bullets/numbers inside */
+    list-style-type: disc; /* Ensures bullets appear (use 'decimal' for ordered lists) */
+    padding-left: 0; /* Remove default left padding */
+    text-align: center; /* Center align the list */
 }
 
 li {
-    display: block; /* Ensures markers appear */
-    text-align: left; /* Keeps multi-line items aligned */
-    margin: 0 auto; /* Centers the list items */
-    width: fit-content; /* Keeps items compact */
+    display: list-item; /* Ensures it behaves as a proper list item */
+    text-align: left; /* Keep text readable while maintaining centered alignment */
+    margin: 0 auto; /* Center the list items */
+    width: fit-content; /* Ensures list items don’t stretch too wide */
 }
 
 /* Modern buttons */
